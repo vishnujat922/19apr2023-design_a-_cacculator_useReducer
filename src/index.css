@@ -6,10 +6,10 @@
 }
 body {
   display: flex;
-  height: 100vh;
+  height: 120vh;
   align-items: center;
   justify-content: center;
-  background-color: #202020;
+  background-color: #302e30;
 }
 .container {
   position: relative;
@@ -49,7 +49,7 @@ body {
   bottom: 14px;
   right: 12px;
   border-radius: 10px;
-  background: linear-gradient(90deg, #2d2d2d, #4d4d4d);
+  background: linear-gradient(90deg, #242323, #494949);
   box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.1),
     10px 5px 10px rgba(0, 0, 0, 0.15);
   border-left: 1px solid #0004;

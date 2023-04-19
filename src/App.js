@@ -105,8 +105,9 @@ function App() {
   return (
     <>
       <div className="container">
+        <h2 style={{color:"skyblue",textAlign:"center", marginBottom:"30px", fontSize:"48px", fontFamily:"arial"}}>Calculate me!</h2>
         <form action name="calc" className="calculator">
-          <input type="text" className="value" value={ newState.result !== 0 ? newState.result : newState.leftValue + newState.operator + newState.rightValue } readOnly name="txt" />
+          <input type="text" className="value" value={ newState.result !== 0 ? newState.result : newState.leftValue + newState.operator + newState.rightValue } readOnly name="txt"/>
           <span className="num clear" onClick={()=>{ dispatch({type:CLEAR}) }}><i>C</i></span>
           <span className="num" onClick={()=>{ dispatch({type:DIVISION}) }}><i>/</i></span>
           <span className="num" onClick={()=>{ dispatch({type:MULTIPLICATION}) }}><i>x</i></span>
